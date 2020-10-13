@@ -21,13 +21,16 @@ h1{
    
     border: dashed rgb(255, 255, 255, 0.52);
     animation: title 3s ease-out;
-    border-width: 2px 2px 2px 2px;
-    border-radius: 6px;
+    /* border-width: 2px 2px 2px 2px;
+    border-radius: 6px; */
     font-style: italic;
     font-size: 2.8em;
     font-weight: 300;
-    
-
+    border-image-slice:42 42 42 42;
+    border-image-width:15px 15px 15px 15px;
+    border-image-outset:0px 0px 0px 0px;
+    border-image-repeat:repeat;
+    border-image-source:url(./assets/imgs/border-image-6.svg)
 }
 small{
   animation:subTitle 3s ease-in-out ;
