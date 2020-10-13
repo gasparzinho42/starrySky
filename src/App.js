@@ -6,7 +6,7 @@ function App() {
   return (
     <main>
       <h1>Bem vindo ao mundo das animações</h1>
-      <small>céu estrelado</small>
+      <small>Céu estrelado</small>
     </main>
   );
 }
